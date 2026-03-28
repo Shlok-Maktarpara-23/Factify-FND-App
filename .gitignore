@@ -1,0 +1,46 @@
+# ============================
+# Python / Django (Backend)
+# ============================
+myenv/
+venv/
+env/
+*.pyc
+__pycache__/
+*.pyo
+db.sqlite3
+*.log
+*.pot
+*.env
+.env
+local_settings.py
+media/
+
+# Django migrations (optional - remove if you want to track them)
+# */migrations/
+
+# ============================
+# Node / React (Frontend)
+# ============================
+node_modules/
+dist/
+build/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ============================
+# OS / Editor
+# ============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln

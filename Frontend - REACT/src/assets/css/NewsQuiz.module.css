@@ -1,0 +1,185 @@
+.container {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #1f2937, #374151, #1f2937) !important;
+  position: relative !important;
+}
+
+.backgroundLayer1 {
+  position: fixed;
+  inset: 0;
+  background: linear-gradient(to bottom right, #1f2937, #374151, #1f2937);
+  z-index: -50;
+}
+
+.backgroundLayer2 {
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(circle at 30% 20%, rgba(59,130,246,0.08), transparent 50%);
+  z-index: -40;
+}
+
+.backgroundLayer3 {
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(circle at 70% 80%, rgba(168,85,247,0.08), transparent 50%);
+  z-index: -30;
+}
+
+.card {
+  background-color: rgba(31, 41, 55, 0.5) !important;
+  backdrop-filter: blur(4px) !important;
+  border: 1px solid rgba(75, 85, 99, 0.5) !important;
+  border-radius: 1rem !important;
+  padding: 2rem !important;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25) !important;
+}
+
+.title {
+  font-size: 3rem !important;
+  font-weight: bold !important;
+  background: linear-gradient(to right, #ffffff, #f3f4f6, #e5e7eb) !important;
+  background-clip: text !important;
+  -webkit-background-clip: text !important;
+  color: transparent !important;
+  margin-bottom: 1rem !important;
+}
+
+.subtitle {
+  color: #e5e7eb !important;
+  font-size: 1.25rem !important;
+  margin-bottom: 0.5rem !important;
+  font-weight: 500 !important;
+}
+
+.questionTitle {
+  color: #e5e7eb !important;
+  font-weight: 600 !important;
+  font-size: 1.875rem !important;
+  margin-bottom: 1.5rem !important;
+  line-height: 1.25 !important;
+}
+
+.questionBox {
+  background-color: rgba(55, 65, 81, 0.5) !important;
+  border: 1px solid rgba(107, 114, 128, 0.6) !important;
+  border-radius: 0.75rem !important;
+  padding: 1.5rem !important;
+}
+
+.questionText {
+  color: #ffffff !important;
+  font-size: 1.125rem !important;
+  line-height: 1.625 !important;
+  font-weight: 500 !important;
+}
+
+.sectionHeading {
+  color: #e5e7eb !important;
+  font-weight: 600 !important;
+  font-size: 1.125rem !important;
+  margin-bottom: 0.75rem !important;
+}
+
+.optionButton {
+  color: #ffffff !important;
+  font-weight: 600 !important;
+  font-size: 1.125rem !important;
+}
+
+.optionCard {
+  display: flex !important;
+  align-items: center !important;
+  padding: 1.5rem !important;
+  border: 2px solid rgba(156, 163, 175, 0.3) !important;
+  border-radius: 0.75rem !important;
+  cursor: pointer !important;
+  transition: all 0.3s !important;
+  background-color: rgba(31, 41, 55, 0.6) !important;
+}
+
+.optionCard:hover {
+  background-color: rgba(55, 65, 81, 0.6) !important;
+}
+
+.optionCardSelected.true {
+  border-color: rgba(34, 197, 94, 0.4) !important;
+  background-color: rgba(34, 197, 94, 0.4) !important;
+  box-shadow: 0 0 0 1px rgba(34, 197, 94, 0.2) !important;
+}
+
+.optionCardSelected.false {
+  border-color: rgba(239, 68, 68, 0.4) !important;
+  background-color: rgba(239, 68, 68, 0.4) !important;
+  box-shadow: 0 0 0 1px rgba(239, 68, 68, 0.2) !important;
+}
+
+.errorMessage {
+  background-color: rgba(239, 68, 68, 0.2) !important;
+  border: 1px solid rgba(230, 79, 79, 0.5) !important;
+  border-radius: 0.75rem !important;
+  padding: 1.5rem !important;
+  text-align: center !important;
+  margin-bottom: 1.5rem !important;
+}
+
+.errorText {
+  color: #fca5a5 !important;
+  font-weight: 600 !important;
+}
+
+.resultSuccess {
+  background-color: rgba(34, 197, 94, 0.2) !important;
+  border: 1px solid rgba(51, 218, 112, 0.5) !important;
+  border-radius: 0.75rem !important;
+  padding: 2rem !important;
+  text-align: center !important;
+  margin-bottom: 1.5rem !important;
+}
+
+.resultError {
+  background-color: rgba(239, 68, 68, 0.2) !important;
+  border: 1px solid rgba(239, 68, 68, 0.5) !important;
+  border-radius: 0.75rem !important;
+  padding: 2rem !important;
+  text-align: center !important;
+  margin-bottom: 1.5rem !important;
+}
+
+.resultTitle {
+  color: #d1fae5 !important;
+  font-size: 1.5rem !important;
+  font-weight: bold !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.resultText {
+  color: #bbf7d0 !important;
+  font-size: 1.125rem !important;
+  font-weight: 500 !important;
+}
+
+.resultTitleError {
+  color: #fecaca !important;
+  font-size: 1.5rem !important;
+  font-weight: bold !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.resultTextError {
+  color: #fca5a5 !important;
+  font-size: 1.125rem !important;
+  font-weight: 500 !important;
+}
+
+.scoreDisplay {
+  background-color: rgba(55, 65, 81, 0.6) !important;
+  border: 1px solid rgba(75, 85, 99, 0.5) !important;
+  color: #ffffff !important;
+  font-weight: 600 !important;
+}
+
+.loadingText {
+  color: #ffffff !important;
+  font-size: 1.125rem !important;
+  font-weight: 600 !important;
+}
